@@ -23,6 +23,11 @@ module.exports = {
         110: '28rem',
         122: '32rem',
       },
+      fontSize: {
+        xxs: ['.65rem', {
+          letterSpacing: '.75rem',
+        }],
+      },
     },
   },
   variants: {},

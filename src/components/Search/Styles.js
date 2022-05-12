@@ -4,6 +4,31 @@ const searchStyles = {
     'top-20',
     'w-full',
   ].join(' '),
+  'form-wrapper': [
+    'flex',
+    'justify-center',
+  ].join(' '),
+  form: [
+    'w-full',
+    'flex',
+    'flex-row',
+    'justify-center',
+    'flex-none',
+    'xl:basis-2/5',
+    'lg:basis-3/6',
+    'md:basis-3/5',
+    'sm:basis-4/5',
+    'basis-11/12',
+    'shrink',
+    'px-4',
+  ].join(' '),
+  input: [
+    'pl-6',
+    'pl-2',
+    'py-4',
+    'rounded-l-lg',
+    'w-full',
+  ].join(' '),
   forButton: [
     'p-3',
     'rounded-r-lg',
@@ -13,18 +38,6 @@ const searchStyles = {
     'flex-column',
     'justify-center',
     'items-center',
-  ].join(' '),
-  form: [
-    'flex',
-    'flex-column',
-    'px-4',
-  ].join(' '),
-  input: [
-    'pl-6',
-    'pl-2',
-    'py-4',
-    'rounded-l-lg',
-    'w-full',
   ].join(' '),
 };
 
