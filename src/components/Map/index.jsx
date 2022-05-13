@@ -33,8 +33,8 @@ function StreetMap({ coordinates }) {
 
     iconSize: [32, 38], // size of the icon
     shadowSize: [32, 38], // size of the shadow
-    iconAnchor: [23.5, 55], // point of the icon which will correspond to marker's location
-    shadowAnchor: [23.5, 55], // the same for the shadow
+    iconAnchor: [0, 15], // point of the icon which will correspond to marker's location
+    shadowAnchor: [0, 15], // the same for the shadow
     popupAnchor: [0, 0], // point from which the popup should open relative to the iconAnchor
   });
 
@@ -76,7 +76,8 @@ function StreetMap({ coordinates }) {
 }
 
 StreetMap.propTypes = {
-  coordinates: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  coordinates: PropTypes.object.isRequired,
 };
 
 export default StreetMap;

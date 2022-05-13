@@ -34,6 +34,12 @@ function SearchIP({ getIpAddress }) {
             onChange={(event) => {
               setIpAddress(event.target.value);
             }}
+            onKeyDown={(event) => {
+              if (!`${event.target.value}${event.key}`.match(/[0-9\-.\b]+/)) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+            }}
           />
           <button type="submit" className={searchStyles.forButton}>
             <span>

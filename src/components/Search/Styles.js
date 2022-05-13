@@ -23,8 +23,8 @@ const searchStyles = {
     'px-4',
   ].join(' '),
   input: [
-    'pl-6',
-    'pl-2',
+    'xl:pl-8',
+    'pl-4',
     'py-4',
     'rounded-l-lg',
     'w-full',
@@ -33,6 +33,7 @@ const searchStyles = {
     'p-3',
     'rounded-r-lg',
     'bg-vdgray',
+    'hover:bg-vdgray-active',
     'w-14',
     'flex',
     'flex-column',

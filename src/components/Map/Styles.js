@@ -1,8 +1,11 @@
 const mapStyles = {
   mapGeneral: [
-    'h-122',
+    'ipad:h-134',
+    'ipad-mini:h-130',
+    'xl:h-122',
+    'h-128',
     'relative',
-    'bottom-0',
+    'top-0',
     'z-10',
   ].join(' '),
 };

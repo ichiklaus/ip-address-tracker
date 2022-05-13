@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* #map {
-  height: 530px !important;
-} */
+.info-u-list::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+}
