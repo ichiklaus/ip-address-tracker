@@ -20,6 +20,28 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ## Overview
 
+This project was built with Parcel.
+
+### Setup
+
+1.  Install dependencies:
+
+```sh
+npm install
+```
+
+2.  Run dev server:
+
+```sh
+npm start
+```
+
+3.  Build for production:
+
+```sh
+npm run build
+```
+
 ### The challenge
 
 Users should be able to:
