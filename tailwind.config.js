@@ -28,6 +28,7 @@ module.exports = {
         110: '28rem',
         122: '32rem',
         128: '38rem',
+        129: '41rem',
         130: '49rem',
         134: '54rem',
         fill: '100vw',

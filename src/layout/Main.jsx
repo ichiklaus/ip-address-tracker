@@ -28,10 +28,10 @@ function Main() {
 
   if (error) {
     return (
-      <div>
+      <main>
         <SearchIP getIpAddress={getIpAddress} />
         <Error />
-      </div>
+      </main>
     );
   }
 
@@ -40,11 +40,11 @@ function Main() {
   }
 
   return (
-    <div>
+    <main>
       <SearchIP getIpAddress={getIpAddress} />
       <Info data={data} />
       <StreetMap coordinates={data.location} />
-    </div>
+    </main>
   );
 }
 

@@ -47,8 +47,6 @@ const infoStyles = {
     'lg:w-52',
     'pr-3',
   ].join(' '),
-  divider: [
-  ].join(' '),
   infoUList: [
     'xl:flex',
     'xl:items-start',

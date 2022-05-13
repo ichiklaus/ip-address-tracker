@@ -25,7 +25,6 @@ function SearchIP({ getIpAddress }) {
           <input
             type="text"
             autoComplete="off"
-            list="autocompleteOff"
             name="search-ip"
             id="search-ip"
             placeholder="Search for any IP address or domain"

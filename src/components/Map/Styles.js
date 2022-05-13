@@ -2,7 +2,7 @@ const mapStyles = {
   mapGeneral: [
     'ipad:h-134',
     'ipad-mini:h-130',
-    'xl:h-122',
+    'xl:h-129',
     'h-128',
     'relative',
     'top-0',

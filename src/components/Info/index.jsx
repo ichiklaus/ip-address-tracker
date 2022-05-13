@@ -11,35 +11,33 @@ function Info({ data }) {
     <div id="info-container" className={infoStyles['info-container']}>
       <div id="info-wrapper" className={infoStyles['info-wrapper']}>
         <div id="list-wrapper" className={infoStyles['info-list-wrapper']}>
-          <ul className={infoStyles.infoUList}>
-            <div className={infoStyles.divider}>
+          <div className={infoStyles.infoUList}>
+            <ul>
               <li className={infoStyles.infoLabel}>IP ADDRESS</li>
               <li className={infoStyles.infoText}>{data.ip}</li>
-            </div>
-          </ul>
-          <ul className={infoStyles.infoUList}>
-            <div className={infoStyles.divider}>
+            </ul>
+          </div>
+          <div className={infoStyles.infoUList}>
+            <ul>
               <li className={infoStyles.infoLabel}>LOCATION</li>
-              <li
-                className={`${infoStyles.infoListFlex} ${infoStyles.infoText}`}
-              >
+              <li className={`${infoStyles.infoListFlex} ${infoStyles.infoText}`}>
                 <span>{data.location.country}</span>
                 <span>{data.location.region}</span>
               </li>
-            </div>
-          </ul>
-          <ul className={infoStyles.infoUList}>
-            <div className={infoStyles.divider}>
+            </ul>
+          </div>
+          <div className={infoStyles.infoUList}>
+            <ul>
               <li className={infoStyles.infoLabel}>TIMEZONE</li>
               <li className={infoStyles.infoText}>{data.location.timezone}</li>
-            </div>
-          </ul>
-          <ul>
-            <div className={infoStyles.divider}>
+            </ul>
+          </div>
+          <div>
+            <ul>
               <li className={infoStyles.infoLabel}>ISP</li>
               <li className={infoStyles.infoText}>{data.isp}</li>
-            </div>
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
