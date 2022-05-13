@@ -5,7 +5,7 @@ import React from 'react';
 import App from './App';
 
 // CSS imports
-import './index.css';
+// import './index.css';
 
 const element = document.querySelector('#root');
 const root = createRoot(element);
