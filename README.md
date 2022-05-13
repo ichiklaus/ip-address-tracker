@@ -31,8 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+<p align="center">
+    <img src="./screenshot/desktop.jpeg" alt="desktop preview">
+</p>
+<p align="center">
+  <img src="./screenshot/mobile.jpeg" alt="mobile preview">
+</p>
 
 ### Links
 
